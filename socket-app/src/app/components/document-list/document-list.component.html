@@ -1,0 +1,16 @@
+<!-- Barra de navegación lateral -->
+<div class="sidenav">
+
+  <!-- Esta eitqueta contiene la opción de crear un nuevo documento -->
+  <span (click)='newDoc()'>Nuevo Documento</span>
+
+  <!-- Esta etiqueta contiene la lista de documentos que se tienen registrados, y que se pueden 
+    abrir haciendo un clic sobre el id del mismo -->
+  <span 
+  [class.selected]='docId === currentDoc' 
+  (click)='loadDoc(docId)' 
+  *ngFor="let docId of documents | async">
+    {{ docId }}
+  </span>
+
+</div>

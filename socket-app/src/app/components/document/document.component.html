@@ -1,0 +1,4 @@
+<!-- Agregamos solo un text area, que simulará nuestro editor de texto (documento) para empezar a escribir
+lo que se nos plazca. Resaltar que cada que tecleemos una tecla, llamará a nuestro método editDoc() para que
+vaya guardando en tiempo real lo que vamos escribiendo -->
+<textarea [(ngModel)]='document.doc' (keyup)='editDoc()' placeholder='Escribe algo...'></textarea>

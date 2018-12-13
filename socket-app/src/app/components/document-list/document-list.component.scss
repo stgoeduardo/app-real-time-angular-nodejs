@@ -1,0 +1,27 @@
+/*la clase sidenav para la barra de navegación lateral*/
+.sidenav {
+    position: fixed;
+    height: 100%;
+    width: 220px;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    /*estilos para la etiqueta span (las opciones de nuestra barra de navegación lateral)*/
+    span {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+        color: #818181;
+        display: block;
+    }.selected {/*agregando la clase de la etiqueta (el porqué se uso SCSS)*/
+        color: #e1e1e1;
+    }:hover {/*agregando el evento hover de la etiqueta (otro porqué del uso de SCSS es mas fácil)*/
+        color: #f1f1f1;
+        cursor: pointer;
+    }
+
+}
