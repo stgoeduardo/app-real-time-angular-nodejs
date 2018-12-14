@@ -5,12 +5,14 @@
 Descargue el proyecto y siga los siguientes pasos para ejecutarlo:
 
 Primero, abra una nueva terminal y acceda a la carpeta socket-server para ejecutar lo siguiente:
+```bash
 * ###### npm install
+```
 
 Después de eso, ejecute el comando:
 * ###### app node.js
 
-para que empiece a ejecutar nuestro servidor, y que espere las conexiones que puedan surgir.
+El servidor empezará a ejecutarse en http://127.0.0.1:4444, y esperaremos las conexiones que surjan.
 
 Teniendo nuestro servidor en ejecución, lo que sigues es abrir de nueva cuenta otra terminarl, acceder a la carpeta socket-app y ejecutar lo siguiente:
 * ###### ng serve
