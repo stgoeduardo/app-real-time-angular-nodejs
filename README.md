@@ -27,6 +27,4 @@ Nuestra aplicación web estaría ejecutandose en http://localhost:4200. Con esto
 
 Los pasos para llevar a cabo este proyecto están descritos en el siguiente [documento](https://drive.google.com/open?id=1UZjmulPDoZqJvanGZlKad2L6z25TQoVa), descarguelo y siga paso a paso para mejor comprensión.
 
-*NOTA: Este ejemplo fue tomado de la página de [Alligator](https://alligator.io/angular/socket-io/).*
-
-
+___NOTA: Este ejemplo fue tomado de la página de [Alligator](https://alligator.io/angular/socket-io/).___
